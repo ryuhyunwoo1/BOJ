@@ -2,14 +2,13 @@ package boj;
 
 import java.util.*;
 
-/* A - B */
+/** A + B **/
 
-public class Q1001 {
+public class Q1000 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
         int A = scanner.nextInt();
         int B = scanner.nextInt();
-        System.out.println(A - B);
+        System.out.println(A + B);
 	}
 }
-
